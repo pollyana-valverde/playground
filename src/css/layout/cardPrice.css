@@ -1,0 +1,137 @@
+@import url('../cores.css'); 
+
+.bgPrice {
+    background-color: var(--light-pink);
+    width: 100%;
+    padding: 100px;
+}
+
+.fundoWaveEnd {
+    width: 100%;
+    z-index: 0;
+}
+
+/*config geral card*/
+.cardPrice {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    animation:
+        2s linear 0s infinite alternate moveTop-Bottom;
+}
+
+.Middle {
+    animation:
+        2s linear 0s infinite alternate moveBottom-Top !important;
+}
+
+@keyframes moveBottom-Top {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(-20px);
+
+    }
+}
+
+@keyframes moveTop-Bottom {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+.cardPriceBody {
+    display: flex;
+    flex-direction: column !important;
+    background-color: transparent;
+    margin: 20px;
+    padding: 37px 60px;
+    border-radius: 30px;
+    border: var( --purple-border);
+    box-shadow: var( --purple-shadow);
+    color: var( --dark-purple);
+}
+
+.cardPriceHeader h1 {
+    margin-right: 20px;
+    background-color: var(--medium-purple);
+    padding: 3px 10px;
+    border-radius: 10px 10px 5px 5px;
+    color: var(--light-salmao);
+}
+
+.cardPriceHeader p {
+    font-size: 19px;
+    margin-top: 7px;
+    padding: 4px 10px !important;
+    border-radius: 10px;
+    background-color: #70354d2a;
+}
+
+.cardPriceContent h5 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cardPriceContent p {
+    font-size: 20px;
+}
+
+.cardPriceEnd button {
+    background-color: var(--medium-purple);
+    border: var( --purple-border);
+    color: var(--light-salmao);
+    border-radius: 10px;
+    padding: 6px 15px;
+    font-size: 24px;
+    transition: ease .3s;
+    margin-bottom: 7px;
+}
+
+.cardPriceEnd button:hover {
+    box-shadow: var( --purple-shadow);
+    color: var(--dark-purple) !important;
+    background-color: transparent;
+}
+
+.cardPriceEnd p {
+    font-size: 19px;
+}
+
+.freeBody .cardPriceHeader p {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+
+.cardPriceDesconto {
+    display: flex;
+    padding: 16px 30px;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-salmao-lowOpacity);
+    border-radius: 20px;
+    border: var(--light-border-lowOpacity);
+    box-shadow: var(--light-shadow-lowOpacity);
+    color: var(--dark-purple);
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.cardPriceDesconto span{
+background-color: var(--medium-purple);
+padding: 10px;
+color: var(--light-salmao);
+border-radius: 10px;
+}

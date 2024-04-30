@@ -1,0 +1,46 @@
+.toggleDarkModeCompo {
+    --size: 50px;
+  }
+  
+  .toggleDarkModeCompo input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background-color: #e56b6f;
+    border: 2px solid #e1585d;
+    border-radius: 30px 100px 100px 100px;
+    box-shadow: 1px 1px 10px 1px #ea7e81a6;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  .toggleDarkModeCompo input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: calc(var(--size) / 2);
+    height: calc(var(--size) / 2);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(0.7);
+    background-color: #eaac8b;
+    border: 3px solid #e7966b;
+    border-radius: 30px 100px 100px 100px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  
+  .toggleDarkModeCompo input[type="checkbox"]:checked {
+    background-color: #eaac8b;
+    border: 2px solid #e7966b;
+    box-shadow: 1px 1px 10px 1px #edb6998d;
+    border-radius: 100px 100px 30px 100px;
+  }
+  
+  .toggleDarkModeCompo input[type="checkbox"]:checked::before {
+    left: 50%;
+    background-color: #e85d62;
+    border: 3px solid #d85458;
+    border-radius: 100px 100px 30px 100px;
+  }

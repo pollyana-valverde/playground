@@ -1,0 +1,78 @@
+@import url('../cores.css'); 
+
+.beneficioHeaderInicial {
+    margin-top: -20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.beneficioHeaderInicial h1{
+    color: var(--light-salmao);
+    font-size: 60px ;
+    font-weight: bold;
+}
+
+.beneficioHeaderInicial p{
+    color: var(--light-salmao-lowOpacity);
+    font-size: 18px;
+}
+
+.beneficioHeaderInicial button{
+    border: var( --light-border);
+    outline: none;
+    padding: 2% 6%;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: var(--light-salmao);
+    color: var(--blue);
+    box-shadow: var(--light-shadow3);
+    transition: .5s ease;
+}
+
+.beneficioHeaderInicial button:hover{
+    background-color: transparent;
+    color: var(--light-salmao);
+}
+
+
+
+.beneficioPart{
+    margin: 100px auto;
+}
+
+.beneficioPart h1{
+    color: var(--light-salmao);
+    font-size: 60px ;
+    font-weight: bold;
+}
+
+.beneficioPart P{
+    color: var(--light-salmao-lowOpacity);
+    font-size: 18px;
+}
+
+.beneficioPart button{
+    color: var(--light-salmao);
+    border: var(--light-border);
+    outline: none;
+    padding: 2% 6%;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.beneficioPart button:hover{
+    background-color: var(--light-salmao);
+color: var(--blue);
+box-shadow: var(--light-shadow3);
+}
+
+.beneficioPart img{
+    border-radius: 20px;
+    width: 100%;
+}
+

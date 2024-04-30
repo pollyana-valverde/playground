@@ -1,0 +1,101 @@
+@import url('../cores.css'); 
+
+
+.musicasFavotitasConteiner {
+    width: 96.5%;
+    margin: 0 auto;    
+}
+
+.musicasFavotitasConteiner .mySwiper{
+    height: 230px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.musicaFavoBody {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+
+.musicaFavoBody .row {
+    /* padding: 10px; */
+    width: 96%;
+    margin: 6px;
+    border-radius: 10px;
+    transition: ease .5s;
+    background-color: var(--purple);
+}
+
+
+.musicaFavoBody img {
+    box-shadow: none;
+    width: 70%;
+    border-radius: 10px 0 0 10px;
+    transition: ease .3s;
+    margin-left: -12px;
+}
+
+
+.musicaFavoBody .musicaFavoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -50px !important;
+}
+
+.musicaFavoBody .musicaFavoText h5 {
+    font-size: 11px;
+    color: var(--light-salmao);
+    margin-bottom: -0.5px;
+    transition: all .3s;
+}
+
+.musicaFavoBody .musicaFavoText p {
+    font-size: 10px;
+    color: var(--light-salmao-lowOpacity);
+    transition: all .3s;
+}
+
+
+.musicaFavoBody .musicaFavoText h5:hover,
+.musicaFavoBody .musicaFavoText p:hover {
+    color: var(--light-pink);
+}
+
+.musicaFavoBody .musicaFavoText div {
+    position: absolute;
+    font-size: 30px;
+    color: var(--light-salmao);
+    margin-top: -15px;
+    left: 4%;
+    opacity: 0;
+    border-radius: 100%;
+    transition: all .3s;
+}
+
+.musicaFavoBody .musicaFavoText div:hover {
+    font-size: 43px;
+    opacity: 1;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+    border: var(--light-pink-border);
+    opacity: 1;
+    background-color: var(--blue) ;
+    transition: all .3s;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 6px;
+    background-color: var(--light-pink) !important;
+    height: 6px;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,81 @@
+@import url('../cores.css'); 
+
+
+.beneficioRecurso {
+    margin-top: -20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.beneficioRecurso h1 {
+    color: var(--light-salmao);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.beneficioRecurso h2 {
+    color: var(--light-salmao);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.beneficioRecurso p {
+    color: var(--light-salmao-lowOpacity);
+    font-size: 18px;
+}
+
+.beneficioRecurso button {
+    border: var(--light-border);
+    outline: none;
+    padding: 2% 6%;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: var(--light-salmao);
+    color: var(--blue);
+    box-shadow: var(--light-shadow-lowOpacity);
+    transition: .5s ease;
+}
+
+.beneficioRecurso button:hover {
+    background-color: transparent;
+    color: var(--light-salmao);
+}
+
+.beneficioEsquerdaDireita {
+    margin: 100px auto;
+}
+
+.beneficioEsquerdaDireita h1 {
+    color: var(--light-salmao);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.beneficioEsquerdaDireita p {
+    color: var(--light-salmao-lowOpacity);
+    font-size: 18px;
+}
+
+.beneficioEsquerdaDireita button {
+    color: var(--light-salmao);
+    border: var(--light-border);
+    outline: none;
+    padding: 2% 6%;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.beneficioEsquerdaDireita button:hover {
+    background-color: var(--light-salmao);
+    color: var(--blue);
+    box-shadow: var(--light-shadow-lowOpacity);
+}
+
+.beneficioEsquerdaDireita img {
+    width: 100%;
+}

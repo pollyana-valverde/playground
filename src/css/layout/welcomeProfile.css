@@ -1,0 +1,22 @@
+@import url('../cores.css'); 
+
+
+.welcomeConteiner {
+    border-radius: 30px 0 0;
+    margin-left: -12px;
+    justify-content: center;
+    background: var(--bgPerfilNomeImg);
+    height: 55%;
+    /* margin-bottom: -30%; */
+    background-repeat: no-repeat;
+}
+
+.welcomeConteiner h1 {
+    margin: 50px 30px;
+    color: var(--light-salmao);
+    font-size: 50px;
+}
+
+.welcomeConteinerCards{
+    margin-left: 30px;
+}

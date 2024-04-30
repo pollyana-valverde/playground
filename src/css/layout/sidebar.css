@@ -1,0 +1,51 @@
+
+
+.sideBar{
+    display: flex;
+    flex-direction: column !important;
+    background-color: #e88c7d;
+    height: 100% !important;
+    position: fixed;
+    padding: 15px;
+    justify-content: space-between ;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.sideBar img{
+    width: 62px;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.sideBar img:hover{
+    border:#f9e5dd 1px solid;
+    padding: 5px;
+}
+
+.sideBar .navIcons svg {
+font-size: 24px !important;
+color: #f9e5dd !important;
+transition: ease .3s;
+}
+
+.sideBar .navIcons{
+    transition: ease .4s;
+}
+
+.sideBar .navIcons svg:hover{
+    color: #ffcdb2 !important;
+}
+
+
+.sideBar .navIcons.active{
+    background-color: #f9e5dd !important;
+box-shadow: 1px 1px 10px 1px #f9e5dd;
+
+
+}
+
+.sideBar .navIcons.active svg{
+    color: #e88c7d !important;
+
+}

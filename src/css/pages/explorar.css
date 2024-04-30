@@ -1,0 +1,7 @@
+@import url('../cores.css'); 
+
+.contentInicialTitulo{
+    margin: 20px 40px 50px;
+    color: var(--light-salmao);
+    font-weight: 800;
+}

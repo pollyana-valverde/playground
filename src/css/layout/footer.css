@@ -1,0 +1,58 @@
+@import url('../cores.css'); 
+
+.footerContent{
+    background-color: var(--blue);
+    width: 100%;
+    padding: 30px 100px;
+}
+
+.footerContent ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContent ul li{
+    list-style-type: none;
+
+}
+
+.footerContent ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--light-salmao) !important;
+    font-size: 24px;
+}
+
+
+.footerContent .logoFooter{
+    color: var(--salmao);
+    margin-top: 15px !important;
+}
+
+.footerContent .iconsFooter a {
+    display: flex;
+}
+
+.footerContent .iconsFooter a svg{
+margin: 10px;
+color: var(--light-salmao);
+
+}
+
+.footerContent .atriFooter{
+    color: var(--light-salmao);
+
+}
+
+.footerWave{
+    margin-top: -30%;
+    width: 100%;
+    z-index: 0;
+}
+
+
+.footerWave img{
+    z-index: 0;
+
+}

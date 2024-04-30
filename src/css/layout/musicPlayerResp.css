@@ -1,0 +1,150 @@
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+.music-player1 {
+    --primary-color: white;
+    --secondary-color: rgb(255, 245, 245);
+    --green-color: #e56b6f;
+    --padding: 1em;
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    height: 6rem;
+    padding: var(--padding);
+    color: var(--primary-color);
+    position: fixed;
+    top: 88%;
+    right: 1.5%;
+    left: 1.5%;
+    z-index: 1030;
+    box-shadow: 1px 1px 15px 1px #f1f3f4c5;
+    border-radius: 20px;
+    position: absolute;
+    width: 50%;
+	visibility: hidden ;
+}
+
+
+
+i {
+    color: var(--secondary-color);
+}
+
+i:hover {
+    color: #e56b6f;
+}
+
+.song-bar1 {
+    position: absolute;
+    left: var(--padding);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    width: 30%;
+
+}
+
+.song-infos1 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.image-container1 {
+    --size: 4.5em;
+    flex-shrink: 0;
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+}
+
+.image-container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.song-description1 p {
+    margin: 0.2em;
+}
+
+.title1,
+.artist1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.title1:hover,
+.artist1:hover {
+    text-decoration: underline;
+}
+
+.artist1 {
+    color: var(--secondary-color);
+}
+
+.icons1 {
+    display: flex;
+    gap: 1em;
+}
+
+.progress-controller1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    color: var(--secondary-color);
+    margin-top: 0.1%;
+    margin-right: -20%;
+}
+
+.control-buttons1 {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+
+/* 
+.progress-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+} */
+
+
+
+/* audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel,
+audio::before,
+audio::after {
+    background-color: #355070;
+    color: #ffffff;
+    border: unset;
+    border-radius: unset !important;
+    border-color: unset !important;
+    border-style: unset !important;
+    border-width: unset !important;
+} */
+
+
+  
+
+
+   /* //media// */
+@media screen and (max-width:720px ) {
+	.music-player1{
+        width: 100%;
+		position: fixed;
+		visibility: visible !important;
+	}
+};

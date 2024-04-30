@@ -1,0 +1,145 @@
+@import url('../cores.css'); 
+
+.categoriaMusica .titulo{
+    margin-top: 10%;
+    margin-left: 1.5%;
+    color: var(--pink);
+    font-weight: bold;
+   
+}
+
+.categoriaMusica .tituloSub1{
+    margin-top: 5%;
+    color: var(--light-salmao);
+    margin-left: 1.5%;
+    margin-bottom: 3%;
+   
+    /* width: 50%; */
+	visibility: visible ;
+}
+
+
+.categoriaMusica .ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+  }
+
+  .categoriaMusica .ag-courses_item1 {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+    margin: 0 15px 30px;
+    overflow: hidden;
+       /* position: absolute;
+    width: 50%; */
+	visibility: visible ;
+    /* border-radius: 28px; */
+
+
+  }
+
+  .categoriaMusica .ag-courses-item_link {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--pink) ;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    border-radius: 10%;
+    
+
+  }
+  .categoriaMusica .ag-courses-item_link:hover,
+  .categoriaMusica .ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: var(--light-salmao);
+  }
+  .categoriaMusica .ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  .categoriaMusica .ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: var(--light-salmao);
+    text-decoration: none;
+
+    padding-top: 20%;
+    z-index: 2;
+    position: relative;
+  }
+  .categoriaMusica .ag-courses-item_date-box {
+    font-size: 18px;
+    color: var(--light-salmao);
+  
+    z-index: 2;
+    position: relative;
+  }
+
+  .categoriaMusica .ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: var(--salmao);
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .ag-courses-item_link, a {
+    text-decoration: none;
+  }
+  
+
+  /* /////media/////////// */
+  @media only screen and (max-width: 979px) {
+    .categoriaMusica .ag-courses_item {
+      -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
+    }
+    .categoriaMusica .ag-courses-item_title {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .categoriaMusica .ag-format-container {
+      width: 96%;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .categoriaMusica .ag-courses_item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .categoriaMusica .ag-courses-item_title {
+      min-height: 72px;
+      line-height: 1;
+  
+      font-size: 24px;
+    }
+    .categoriaMusica .ag-courses-item_link {
+      padding: 22px 40px;
+    }
+    .categoriaMusica .ag-courses-item_date-box {
+      font-size: 16px;
+    }
+  }
+
+
+
+  /* ////////////titulo///////////// */
+  @media screen and (max-width:720px) {
+    .categoriaMusica  {
+        position: relative;
+        display: none
+    }
+  };

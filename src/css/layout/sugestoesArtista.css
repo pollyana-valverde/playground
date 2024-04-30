@@ -1,0 +1,97 @@
+@import url('../cores.css'); 
+
+
+.sugestoesArtistaConteiner {
+    width: 96.5%;
+    margin: 0 auto;    
+}
+
+.sugestoesArtistaTitulo{
+    margin: 30px 30px -30px;
+    font-size: 16px;
+    color: var(--light-salmao-lowOpacity);
+}
+
+.sugestoesArtistaConteiner .mySwiper{
+    height: 230px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.sugeArtistaBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sugeArtistaBody .col-lg-3 {
+    /* width: 96%; */
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sugeArtistaBody img {
+    box-shadow: none;
+    width: 300%;
+    height: unset;
+    border-radius: 100%;
+    transition: ease .3s;
+}
+
+.sugeArtistaBody h5{
+    color: var(--light-salmao);
+    font-size: 14px;
+
+}
+
+.sugeArtistaBody p{
+    margin-top: -6px;
+    color: var(--light-salmao-lowOpacity);
+    font-size: 11px;
+}
+
+.sugeArtistaBody div svg{
+    font-size: 60px;
+    color: var(--light-salmao);
+    border-radius: 100%;
+    box-shadow: var(--light-shadow1);
+    position: absolute;
+    top: 8.5%;
+    left: 29.5%;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.sugeArtistaBody:hover img{
+    backdrop-filter: grey-scale(100%);
+}
+
+.sugeArtistaBody:hover div svg{
+    font-size: 80px;
+    opacity: 1;
+}
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+    border: var(--light-pink-border);
+    opacity: 1;
+    background-color: var(--blue) ;
+    transition: all .3s;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 6px;
+    background-color: var(--light-pink) !important;
+    height: 6px;
+    border-radius: 100%;
+}
+

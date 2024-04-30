@@ -1,0 +1,164 @@
+:root {
+
+    /*cores*/
+    --white: white;
+    --light-salmao: #f9e6dd;
+    --light-salmao-lowOpacity: #f9e6dda6;
+
+    --salmao: #eaac8b;
+    --light-pink: #e88c7d;
+    --pink: #e56b6f;
+    --medium-pink: #b56576;
+    --dark-pink: #915f78;
+    --medium-purple: #6d597a;
+    --purple: #515575;
+    --dark-purple: #474b6a;
+    --light-blue: #789cc7;
+    --blue: #355070;
+    --dark-blue: #23354a;
+
+
+
+    /*cor de fundo em linear-gradient e radial-grandient*/
+    --bgLinear-lightToDark-blue: linear-gradient(0deg, #9ecdff38 0%, #354f70e9 100%);
+    --bgLinear-lightToDark-blue2: linear-gradient(0deg, #354f70e9 0%, #9ecdff38 100%);
+    --bgLinear-pinkToPurple: linear-gradient( #915f78 3%, #515575 100%);
+    --bgLinear-pinkToPurple2: linear-gradient( #515575 3%, #915f78 100%);
+
+    
+    --bgRadial-bottomLeft: radial-gradient(ellipse at left, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #36394e, transparent);
+
+    --bgRadial-bottomTop:radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #36394e, transparent);
+
+    --bgRadial-topBottom:radial-gradient(ellipse at bottom, #e66465, transparent),
+    radial-gradient(ellipse at top, #36394e, transparent);
+
+    --bgRadial-bottomRight:radial-gradient(ellipse at right, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #36394e, transparent);
+
+    --bgRadial-darkPinkToTransparent: radial-gradient(#ad6c8c 8%, transparent 73%);
+    --bgRadial-purpleToTransparent: radial-gradient(#515575 8%, transparent 92%);
+    --bgRadial-darkPinkToPurple: radial-gradient(#915f78 18%, #515575 82%);
+
+
+
+    /*fundos com imagens*/
+    --bgPerfilNomeImg: url('../imagens/bgPerfilNome-dark.png');
+    --bgPerfilSidebar: url("../imagens/bgProfileSidebar_dark.svg");
+
+
+    /*sombras claras e escuras*/
+    --light-shadow1: 1px 1px 10px 1px #f9e6dd;
+    --light-shadow2: 1px 1px 15px 1px #f9e6dd;
+    --light-shadow3: 1px 1px 20px 1px #f9e6dd;
+    --light-shadow-lowOpacity: 1px 1px 15px 1px #f9e6dddb;
+
+    --light-pink-shadow: 1px 1px 10px 1px #e88c7d;
+    --pink-shadow: 1px 1px 10px 1px #e56b6f;
+    --pink-shadow2: 1px 1px 15px 1px #e56b6f;
+    --dark-pink-shadow: 1px 1px 15px 1px #c67579;
+    --light-shadow: 1px 1px 20px 1px #6d597a;
+
+    --dark-shadow: 1px 1px 10px 1px #2a3f59;
+    --purple-shadow: 1px 1px 20px 1px #23354a;
+    --lowOpacity-darkShadow: 1px 1px 15px 1px #3235495b;
+
+    /*sombra de texto*/
+    --pink-textShadow: 1px 1px 5px #e56b6fd4;
+    --mediumPurple-textShadow:  1px 1px 5px #6d597a;
+
+
+    /*bordas*/
+    --light-border: #f9e6dd 1px solid;
+    --light-border-lowOpacity: #f9e6dddb 2px solid;
+    --salmao-border: #eaac8b 1px solid;
+    --light-pink-border: #e88b7dcf 1px solid;
+    --lilLight-darPink-shadow:  1.5px solid #ad6c8c;
+    --purple-border: #6d597a 1px solid;
+    --blue-border: #355070 1px solid;
+    --dark-blue-border: #23354a 1px solid;
+
+}
+
+[data-theme="dark"]{
+        /*cores*/
+        --light-salmao: #355070;
+        --light-salmao-lowOpacity: #354f7096;
+    
+        --salmao: #eaac8b;
+        --light-pink: #b56576;
+        --pink: #eaac8b;
+        --medium-pink: #b56576;
+        --dark-pink: #915f78;
+        --medium-purple: #6d597a;
+        --purple: #e88c7d;
+        --dark-purple: #474b6a;
+        --light-blue: #b56576;
+        --blue: #f9e6dd;
+        --dark-blue: #23354a;
+    
+    
+    
+        /*cor de fundo em linear-gradient e radial-grandient*/
+        --bgLinear-lightToDark-blue: linear-gradient(0deg, #e88b7d1f 0%, #e88b7dd9 100%);
+        --bgLinear-lightToDark-blue2: linear-gradient(0deg, #e88b7dd9 0%, #e88b7d1f  100%);
+        --bgLinear-pinkToPurple: linear-gradient( #e88c7d 3%, #e56b6f 100%);
+        --bgLinear-pinkToPurple2: linear-gradient( #e56b6f 3%, #e88c7d 100%);
+    
+        
+        --bgRadial-bottomLeft: radial-gradient(ellipse at left, #e66465, transparent),
+        radial-gradient(ellipse at bottom, #eaac8b, transparent);
+    
+        --bgRadial-bottomTop:radial-gradient(ellipse at top, #e66465, transparent),
+        radial-gradient(ellipse at bottom, #eaac8b, transparent);
+    
+        --bgRadial-topBottom:radial-gradient(ellipse at bottom, #e66465, transparent),
+        radial-gradient(ellipse at top, #eaac8b, transparent);
+    
+        --bgRadial-bottomRight:radial-gradient(ellipse at right, #e66465, transparent),
+        radial-gradient(ellipse at bottom, #eaac8b, transparent);
+    
+        --bgRadial-darkPinkToTransparent: radial-gradient(#b56576 8%, transparent 73%);
+        --bgRadial-purpleToTransparent: radial-gradient(#eaac8b 8%, transparent 92%);
+        --bgRadial-darkPinkToPurple: radial-gradient(#eaac8b 18%, #e56b6f 82%);
+    
+    
+    
+        /*fundos com imagens*/
+        --bgPerfilNomeImg: url('../imagens/bgPerfilNome-light.png');
+        --bgPerfilSidebar: url("../imagens/bgProfileSidebar_light.svg");
+    
+    
+        /*sombras claras e escuras*/
+        --light-shadow1: 1px 1px 10px 1px #355070;
+        --light-shadow2: 1px 1px 15px 1px #355070;
+        --light-shadow3: 1px 1px 20px 1px #355070;
+        --light-shadow-lowOpacity: 1px 1px 15px 1px #354f7096;
+    
+        --light-pink-shadow: 1px 1px 10px 1px #e88c7d;
+        --pink-shadow: 1px 1px 10px 1px #e56b6f;
+        --pink-shadow2: 1px 1px 15px 1px #e56b6f;
+        --dark-pink-shadow: 1px 1px 15px 1px #c67579;
+        --light-shadow: 1px 1px 20px 1px #6d597a;
+    
+        --dark-shadow: 1px 1px 10px 1px #f9e6dd;
+        --purple-shadow: 1px 1px 20px 1px #23354a;
+        --lowOpacity-darkShadow: 1px 1px 15px 1px #3235495b;
+    
+        /*sombra de texto*/
+        --pink-textShadow: 1px 1px 5px #eaac8b;
+        --mediumPurple-textShadow:  1px 1px 5px #6d597a;
+    
+    
+        /*bordas*/
+        --light-border: #355070 1px solid;
+        --light-border-lowOpacity: #354f7096 2px solid;
+        --salmao-border: #eaac8b 1px solid;
+        --light-pink-border: #e88b7dcf 1px solid;
+        --lilLight-darPink-shadow:  1.5px solid #ad6c8c;
+        --purple-border: #6d597a 1px solid;
+        --blue-border: #f9e6dd 1px solid;
+        --dark-blue-border: #23354a 1px solid;
+}

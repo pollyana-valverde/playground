@@ -1,0 +1,61 @@
+@import url('../cores.css'); 
+
+.cabecalho{
+    background-color: var(--blue) !important;
+    box-shadow: 1px 1px 40px 1px #e88c7d;
+    padding: 7px 120px !important;
+}
+
+.logoIcon{
+    margin-top: -7px;
+    width: 65px;
+    border-radius: 100%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    color: #eaac8b;
+    font-size: 23px;
+}
+
+
+.br_logo{
+    margin-top: -7px;
+    color: #e56b6f;
+   font-weight: bolder;
+}
+
+.navActions a{
+    color: var(--light-salmao) !important;
+    font-size: 20px;
+}
+
+.navActions a:hover{
+    color: var(--pink) !important;
+    text-shadow: var(--pink-textShadow) !important;
+}
+
+.navActions button{
+    font-size: 18px;
+    padding: 7px 25px;
+    border-radius: 30px;
+}
+
+.btnAction1{
+    margin: 0 15px 0 5%;
+    color: var(--light-salmao) !important;
+    background-color: transparent !important;
+    border:var(--light-border);
+}
+
+.btnAction1:hover {
+box-shadow: var(--light-shadow1);  
+background-color: var(--light-salmao) !important;
+border: var(--light-border);
+}
+
+.btnAction1:hover a{
+    color: var(--blue) !important;
+text-shadow: none !important;
+}

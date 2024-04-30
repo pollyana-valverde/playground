@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.artista1{
+    margin-top: -5%;
+    color: #d2d2d2;
+}
+
+.elementoTodo1{
+    margin-left: 6%;
+    margin-top: 10%;
+    color: white;
+
+}
+
+.cabecalho{
+    /* text-align: center;
+    margin-top: -30%;
+    margin-bottom: 10%; */
+    margin-top: -30%;
+    margin-bottom: 5%;
+    color: rgb(181, 179, 179);
+}
+
+
+.albumpick1 {
+    width: 95%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+
+}
+
+.cards1{
+    margin-top: 10%;
+    border-color: #355070;
+  
+}
+
+.card-body1{
+    background-color: #526d8e;
+    color: white;
+    border-radius: 1%;
+    border-color: #355070;
+    width: 200%;
+}
+
+.subTitle1{
+    color: #d2d2d2;
+    margin-top: -4%;
+}
+
+.button1 {
+    border: 1px solid #f9e6dd;
+    outline: none;
+    padding: 2% 6%;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: #f9e6dd;
+    color: #355070;
+    box-shadow: 1px 1px 25px 1px #f9e6dd53;
+    transition: .5s ease;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.button1:hover{
+    background-color: #6D597A;
+} 
+
+
+.espacoMerch1{
+    margin-top: 10%;
+}
+
+.espacoMerch1:hover{
+background-color: #355070;
+border-radius: 5%;
+}
+
+.espacoRodape1{
+    margin-bottom: 40%;
+}
+
+html ::-webkit-scrollbar {
+    width: 12px;
+}
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #515575;
+    border: 3px solid white;
+}
+html ::-webkit-scrollbar-track {
+    background: white;
+}
+
+.merch1{
+    width: 75%;
+}
+
+
+.visibilityResponsive{
+    visibility: hidden !important;
+}
+
+
+.espacamentoPlayer{
+    margin-top: 5%;
+    margin-left: -3%;
+}
+
+
+/* //media// */
+@media screen and (max-width:720px ) {
+	.visibilityResponsive{
+		position: relative;
+		visibility: visible !important;
+	}
+};
+
+/* audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel,
+audio::before,
+audio::after {
+    background-color: #355070;
+    color: #ffffff;
+    border: unset;
+    border-radius: unset !important;
+    border-color: unset !important;
+    border-style: unset !important;
+    border-width: unset !important;
+} */

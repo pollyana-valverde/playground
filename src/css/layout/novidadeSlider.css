@@ -1,0 +1,155 @@
+@import url('../cores.css');
+
+.cardNovidades{
+    margin: 10px 0 40px -30px;
+}
+
+
+/*fundos dos card */
+.cardNovidadesBody1 {
+    background: url('../../imagens/albumNovidade1.jpg');
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+
+.cardNovidadesBody2 {
+    background: url('../../imagens/albumNovidade2.jpg');
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+
+.cardNovidadesBody3 {
+    background: url('../../imagens/albumNovidade3.jpg');
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+
+.cardNovidadesBody4 {
+    background: url('../../imagens/albumNovidade4.jpg');
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+
+
+
+/*config dos cards do slider*/
+.cardNovidadesContent {
+    border-radius: 30px !important;
+    padding: 30px 60px;
+    background-color: rgba(3, 18, 45, 0.17);
+    backdrop-filter: blur(13px);
+}
+
+.cardNovidadesContent p{
+    color: var(--light-salmao);
+font-size: 15px
+}
+
+.cardNovidadesContent p::after{
+    position: absolute;
+    top: 10%;
+    left: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    background-color: var(--medium-pink);
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+.cardNoviMusicPart {
+    display: flex;
+    align-items: center;
+}
+
+.cardNoviMusicPart img {
+    /* margin-right: 40px; */
+    width: 40%;
+    border-radius: 10px;
+}
+
+.cardNovidadesText{
+    padding: 57px;
+    border-radius: 20px;
+    background: radial-gradient(#354f70d0 9%, transparent 70%);
+    color: #f9e6dd;
+}
+
+.cardNovidadesText h1{
+    font-size: 46px;
+}
+
+
+.cardNovidadesText button{
+    color: #213145;
+    margin-top: 10px;
+    background-color: #f9e6dd;
+    box-shadow: 1px 1px 12px 1px #f9e6dd;
+    border-radius: 20px;
+    border: 1px solid #f9e6dd;
+    padding: 12px 40px;
+    font-size: 17px;
+    transition: ease .3s;
+}
+
+.cardNovidadesText button:hover{
+    background-color: transparent;
+    box-shadow: 1px 1px 20px 1px #f9e6dd;
+    color: #f9e6dd;
+}
+
+.novidades .carousel-control-next,
+.novidades .carousel-control-prev {
+    border-radius: 20px !important;
+    margin:0 70px;
+    width: 5%;
+    text-align: center;
+    /* background: linear-gradient(to bottom right, #6a95ca66 3%, #355070 100%); */
+    background: #f9e6dd0c;
+    opacity: 1;
+    border: var(--light-border);
+    transition: opacity .15s ease;
+}
+/* .carousel-control-next{
+    background: linear-gradient(to bottom right, #6a95ca66 3%, #355070 100%); 
+}
+
+.carousel-control-prev{
+    background: linear-gradient(to bottom left, #6a95ca66 3%, #355070 100%); 
+
+} */
+
+ .novidadesDivider {
+    margin-left: -30px;
+    align-items: center !important;
+    color: var(--light-salmao);
+    display: flex !important;
+    justify-content: center !important;
+}
+
+ .novidadesDivider h5 {
+    font-size: 13px;
+    color: var(--light-salmao);
+    margin: 5px 20px;
+}
+
+ .novidadesDivider .divider-line:first-of-type {
+    background: linear-gradient(270deg, currentColor, currentColor 84.88%, rgba(0, 0, 0, 0));
+}
+
+ .novidadesDivider .divider-line {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0), currentColor, currentColor 84.88%);
+    flex-shrink: 1;
+    height: 1px;
+    width: 33%;
+}

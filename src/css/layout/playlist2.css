@@ -1,0 +1,256 @@
+@import url('../cores.css'); 
+
+
+  .containerTable {
+    color: var(--light-salmao);
+  }
+  
+  .containerTable h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+  
+    small {
+      font-size: 0.5em;
+    }
+  }
+  
+  .responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 8px 15px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: -13px;
+    }
+  
+    .table-header {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+  
+    .responsive-table,
+    li:hover {
+      background-color: rgba(0, 0, 0, 0.095);
+    }
+  
+  
+    .table-row {
+      font-size: 97%;
+    }
+  
+  
+    .col-1 {
+      flex-basis: 10%;
+      color: var(--light-salmao-lowOpacity);
+    }
+  
+    .col-2 {
+      flex-basis: 40%;
+    }
+  
+    .col-3 {
+      flex-basis: 42%;
+    }
+  
+    .artistaTable {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .col-4 {
+      color: var(--light-salmao-lowOpacity);
+    }
+  
+  
+  }
+  
+  .hr-color {
+    color: var(--light-salmao-lowOpacity);
+    margin-top: -1%;
+  }
+  
+  .img-capa {
+    width: 5%;
+    padding-left: 3%;
+  }
+  
+  .albumpickPlay {
+    width: 120%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    margin-top: 50%;
+    margin-left: 8%;
+  }
+  
+  .albumpickPlay:hover {
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.39);
+    transition: ease .5s;
+  }
+  
+  .titulo {
+    margin-top: 23%;
+    margin-left: 6%;
+    color: var(--light-salmao);
+  }
+  
+  .tituloAlbum {
+    margin-top: 3%;
+    margin-left: 6%;
+    color: var(--light-salmao);
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .iconTime {
+    color: var(--light-salmao-lowOpacity);
+    margin-left: 80.5% !important;
+  }
+  
+  .tituloNome {
+    color: var(--light-salmao);
+    font-size: 2.4em;
+    margin-left: 6%;
+  }
+  
+  .titulo2 {
+    margin-left: 6%;
+    color: var(--light-salmao);
+  }
+  
+  .aLink {
+    color: var(--light-salmao)
+  }
+  
+  .colorFundo {
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+        background: var(--bgLinear-lightToDark-blue);
+  }
+  
+  
+  .tituloSub1 {
+    margin-top: 8%;
+  }
+  
+
+  .imgIcon {
+    width: 5%;
+    border-radius: 50%;
+    padding-right: 1%;
+  }
+  
+  .colorIcon {
+    color: var(--light-salmao-lowOpacity);
+    font-size: 3rem;
+    margin-top: 1.8%;
+    margin-left: 44rem;
+    transition: ease .5s;
+
+  }
+  
+  .colorIcon2 {
+    color: var(--light-salmao-lowOpacity);
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-left: 2%;
+    transition: ease .5s;
+
+  }
+  
+  .colorIcon:hover {
+    color: #e88c7d;
+  border-radius: 100%;
+  box-shadow: 1px 1px 10px 1px #e88c7d;
+  }
+  
+  .colorIcon2:hover {
+    color: #e56b6f;
+  }
+  
+  .aLink:hover {
+    color: var(--dark-blue);
+    transition: ease .5s;
+  }
+  
+  .imageAlbum {
+    width: 105%;
+    border-radius: 5%;
+    margin-left: 2%;
+  }
+
+  .imageAlbum2{
+    width: 5%;
+    border-radius: 50%;
+    margin-left: -5%;
+    margin-right: 2%;
+    margin-top: -0.5%;
+    border: var( --dark-blue-border);
+  }
+  
+  .subtitulo1 {
+    margin-left: 2%;
+    color:var(--light-salmao);
+  }
+  
+  .subtitulo2 {
+    margin-left: -6%;
+    color:var(--light-salmao);
+  }
+  
+  .subtitulo3 {
+    margin-left: -6.6%;
+    color: var(--light-salmao);
+  }
+  
+  .subtitulo4 {
+    margin-left: -6%;
+    color: var(--light-salmao);
+  }
+  
+  
+  
+  .hoverMusic:hover {
+    color: var(--light-blue);
+    text-decoration: none;
+  }
+
+
+
+.image-container1{
+    position: relative;
+}
+
+.bannerNavbar{
+    margin-top: 2%;
+    border-radius: 2%;
+    height: auto;
+    display: block;
+
+
+  }
+
+  .filter{
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #9ecdff12;
+  }
+
+  .tituloSobreposto{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color:var(--light-salmao);
+  }
+
+  .tituloSobreposto h1{
+    margin-bottom: 10px !important;
+  }
+
+

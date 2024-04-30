@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('../cores.css'); 
+
+
+body{
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.background {
+    margin-left: -2%;
+    background-color: var(--blue);
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    color:var(--light-salmao);
+    box-shadow: 1px 1px 25px 1px #00000053;
+
+}
+
+.artista{
+    margin-top: -5%;
+    color: var(--light-salmao-lowOpacity);
+}
+
+.elementoTodo {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.albumpick {
+    width: 95%;
+    border-radius: 5% !important;
+    margin-bottom: 5%;
+
+}
+
+.cardsMusic{
+    border-radius: 10% !important;
+    background-color: var(--bgLinear-lightToDark-blue2);
+    margin-top: 10%;
+    border-color: var(--bgLinear-lightToDark-blue2);
+    width: 95% !important;
+}
+
+.cardsMusic .card-body{
+    /* background-color: #526d8e; */
+    color: var(--light-salmao);
+    border-radius:0 0 10% 10% !important;
+    border-color: var(--bgLinear-lightToDark-blue2);
+}
+
+.cardsMusic  .card-img, .cardsMusic  .card-img-top{
+    border-radius: 10% 10% 0 0;
+}
+
+.cardsMusic .subTitle{
+    color: var(--light-salmao-lowOpacity);
+    margin-top: -4%;
+}
+
+.cardsMusic .button {
+    border: var(--light-border);
+    outline: none;
+    padding: 2% 6%;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: var(--light-salmao);
+    color: var(--blue);
+    box-shadow:var(--light-shadow-lowOpacity);
+    transition: .5s ease;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cardsMusic .button:hover{
+    background-color: var(--medium-purple);
+} 
+
+
+.cardsMusic .espacoMerch{
+    margin-top: 10%;
+    transition: ease .3s !important;
+padding: 10px;
+font-size: 12.5px;
+}
+
+.cardsMusic .espacoMerch img{
+    width: 100%;
+}
+
+.cardsMusic .espacoMerch:hover{
+background-color: var(--blue);
+border-radius: 10%;
+}
+
+.cardsMusic .espacoRodape{
+    margin-bottom: 40%;
+}
+
+html ::-webkit-scrollbar {
+    width: 12px;
+}
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--purple);
+    border: 3px solid var(--light-salmao);
+}
+html ::-webkit-scrollbar-track {
+    background: var(--light-salmao);
+}
+
+.cardsMusic .merch{
+    width: 75%;
+}

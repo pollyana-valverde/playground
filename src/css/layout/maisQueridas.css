@@ -1,0 +1,20 @@
+ .maisQueridasMusica{
+    display: flex;
+    margin-top: 20px ;
+  }
+
+
+.maisQueridasMusicaInfo{
+    margin-left: -30px;
+}
+
+.maisQueridasMusicaInfo img{
+margin-left: 10px;
+border-radius: 10px !important;
+margin-right: -15px;
+width: 4.5% !important;
+}
+
+.maisQueridasMusicaInfo div{
+    margin-top: 8px !important;
+}

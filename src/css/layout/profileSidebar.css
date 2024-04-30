@@ -1,0 +1,74 @@
+@import url('../cores.css'); 
+
+
+.profileSidebarBody {
+    margin: 50px 0 !important;
+}
+
+.profielSidebarContent {
+    position: relative;
+    padding: 13% 10% !important;
+    width: 100%;
+    border-radius: 20px;
+    background: var(--bgPerfilSidebar);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 20px 1px #3235495b;
+}
+
+.profielSidebarContent .profileNameImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: -6%;
+    height: 300px;
+    background: var(--bgRadial-darkPinkToTransparent);
+}
+
+.profielSidebarContent .profileNameImg .imagemPerfil {
+    position: absolute;
+    top: 9%;
+    width: 57%;
+    border-radius: 30px;
+    border: var( --lilLight-darPink-shadow);
+    padding: 10px;
+}
+
+.profielSidebarContent .profileNameImg h4 {
+    position: absolute;
+    top: 36%;
+    text-shadow: var(--mediumPurple-textShadow);
+    font-size: 18px;
+    color: var(--pink);
+}
+
+.profielSidebarContent p {
+    text-align: center;
+    color: var(--light-pink);
+    font-weight: 700;
+    padding: 55px 20px 10px 20px;
+    background: var(--bgRadial-purpleToTransparent);
+    transition: ease .3s;
+    border-radius: 4px;
+
+}
+
+.profielSidebarContent p:hover {
+    border-radius: 20px;
+    background: var( --bgRadial-darkPinkToPurple);
+    transition: ease .3s;
+
+}
+
+.profielSidebarContent .changeModeBody {
+    margin: 95px 2px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profielSidebarContent .changeModeBody h5 {
+    color: var(--light-salmao);
+    font-size: 17px;
+}

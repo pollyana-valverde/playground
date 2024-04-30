@@ -1,0 +1,108 @@
+@import url('../cores.css'); 
+
+
+.sugestaoCorpo {
+    margin: 10px 30px !important;
+    display: flex;
+}
+
+.sugestaoCorpo h5{
+    font-size: 16px;
+    color: var(--light-salmao-lowOpacity);
+    margin-bottom: 18px;
+}
+
+.sugestaoCorpo .col-lg-2 {
+    overflow: hidden;
+    transition: ease .5s;
+}
+
+.sugestaoCorpo .col-lg-2:hover {
+    overflow: visible !important;
+    border-radius: 20px;
+}
+
+.sugestaoCorpo .col-lg-2:hover img {
+    filter: grayscale(100%);
+    transform: translateX(5px) translateY(-5px);
+    border-radius: 20px !important;
+}
+
+.sugestaoCorpo .col-lg-2:hover div svg {
+    opacity: 1;
+    margin-top: -60% !important;
+    right: -69% !important;
+}
+
+.sugestaoCorpo img {
+    width: 100% !important;
+    transition: ease .3s;
+    border-radius: 20px !important;
+}
+
+.sugestaoCorpo div svg {
+    position: relative;
+    margin-top: -32%;
+    right: -78% !important;
+    color: #e88c7d;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px #e88c7d;
+    font-size: 40px !important;
+    opacity: 0;
+    transition: ease .5s;
+
+}
+
+
+/*sugestoes corpo 2*/
+.sugestaoCorpo2 {
+    margin: 10px 30px !important;
+    display: flex;
+}
+
+.sugestaoCorpo2 h5{
+    font-size: 16px;
+    color: var(--light-salmao-lowOpacity);
+    margin-bottom: -3px;
+}
+
+.sugestaoCorpo2 .col-lg-2 {
+    overflow: hidden;
+    transition: ease .5s;
+}
+
+.sugestaoCorpo2 .col-lg-2:hover {
+    overflow: visible !important;
+    border-radius: 20px;
+}
+
+.sugestaoCorpo2 .col-lg-2:hover img {
+    filter: grayscale(100%);
+    transform: translateX(5px) translateY(-5px);
+    border-radius: 20px !important;
+}
+
+.sugestaoCorpo2 .col-lg-2:hover div svg {
+    opacity: 1;
+    margin-top: -60% !important;
+    right: -69% !important;
+}
+
+.sugestaoCorpo2 img {
+    width: 100% !important;
+    transition: ease .3s;
+    border-radius: 20px !important;
+}
+
+.sugestaoCorpo2 div svg {
+    position: relative;
+    margin-top: -32%;
+    right: -78% !important;
+    color: #e88c7d;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px #e88c7d;
+    font-size: 40px !important;
+    opacity: 0;
+    transition: ease .5s;
+
+}

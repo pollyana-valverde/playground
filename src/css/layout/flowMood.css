@@ -1,0 +1,85 @@
+@import url('../cores.css'); 
+
+.flowMoodBody{
+    margin: 40px 40px 0px 40px;
+}
+
+.flowMoodBody h4{
+    color: var(--light-salmao);
+}
+
+.flowMoodBody p{
+    color: var(--light-salmao-lowOpacity);
+}
+
+.flowMoodContent{
+    display: flex;
+text-align: center;
+}
+
+.flowMoodContent .col-lg-1{
+    margin: 20px;
+}
+
+.flowMoodContent .flowMood{
+    color: #f9e6dd;
+    font-size: 90px;
+    margin-inline-start: -8px;
+    background-color: var(--purple);
+    border-radius: 70px;
+    padding: 40%;
+}
+
+/*cor de fundo dos moods*/
+.flowMoodContent .flowMood.mood1{
+    background-color:#eaac8b;
+}
+
+.flowMoodContent .flowMood.mood2{
+    background-color:#e88c7d;
+}
+
+.flowMoodContent .flowMood.mood3{
+    background-color:#e56b6f;
+}
+
+.flowMoodContent .flowMood.mood4{
+    background-color: #b56576;
+}
+
+.flowMoodContent .flowMood.mood5{
+    background-color: #915f78;
+}
+
+.flowMoodContent .flowMood.mood6{
+    background-color: #6d597a;
+}
+
+.flowMoodContent .flowMood.mood7{
+    background-color: #515575;
+}
+
+.flowMoodContent .flowMood.mood8{
+    background-color: #474b6a;
+}
+
+
+.flowMoodContent .playFlowMood{
+    position: absolute;
+    font-size: 40px;
+    top: 18.5%;
+    margin-left: -17px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.flowMoodContent .playFlowMood:hover {
+    background-color: var(--blue);
+    font-size: 60px;
+    top: 17.3%;
+    box-shadow: var(--light-shadow1);
+    margin-left: -27px;
+    opacity: 1;
+    color: var(--light-salmao);
+    border-radius: 100%;
+}

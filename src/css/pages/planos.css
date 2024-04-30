@@ -1,0 +1,43 @@
+@import url('../cores.css'); 
+
+
+.endPage .endPageWave {
+    width: 100%;
+    margin-top: -20% !important;
+}
+
+.endPageContent {
+    background-color: var(--medium-pink) !important;
+    padding: 1px 0 14% 0 !important;}
+
+
+
+.contentDivider {
+    margin-top: 70px;
+    margin-bottom: -40px;
+    align-items: center !important;
+    color: var(--light-salmao);
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+}
+
+.contentDivider h5 {
+    color: var(--light-salmao);
+    margin: 0 20px;
+}
+
+.contentDivider .divider-line:first-of-type {
+    background: linear-gradient(270deg, currentColor, currentColor 84.88%, rgba(0, 0, 0, 0));
+}
+
+.contentDivider .divider-line {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0), currentColor, currentColor 84.88%);
+    flex-shrink: 1;
+    height: 2px;
+    width: 20%;
+}
+
+.beneficioFAQ {
+    margin: 0 !important;
+}

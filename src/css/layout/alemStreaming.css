@@ -1,0 +1,47 @@
+@import url('../cores.css'); 
+
+.streamBody{
+    margin: 10px 30px 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.streamBody h5{
+    font-size: 16px;
+    color: var(--light-salmao-lowOpacity);
+}
+
+.streamContent{
+    text-align: center;
+    color: var(--light-salmao);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: var(--dark-shadow);
+    width: 20%;
+    margin: 20px;
+    transition: all .4s;
+}
+
+
+.streamContent:hover{
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+.streamContent.stream1{
+    background: var(--bgRadial-bottomLeft);
+}
+
+.streamContent.stream2{
+    background: var(--bgRadial-bottomTop);
+}
+
+.streamContent.stream3{
+    background: var(--bgRadial-topBottom);
+
+}
+
+.streamContent.stream4{
+    background: var(--bgRadial-bottomRight);
+}

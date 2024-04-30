@@ -1,0 +1,75 @@
+@import url('../cores.css'); 
+
+
+.albuns {
+  margin: 100px !important;
+  display: flex;
+
+}
+
+.albuns .col-lg-3 {
+  /* height: 236px; */
+  overflow: hidden;
+  transition: ease .5s;
+}
+
+.albuns .col-lg-3:hover {
+  overflow: visible !important;
+  border-radius: 20px;
+}
+
+.albuns .col-lg-3:hover img {
+  filter: grayscale(100%);
+  transform: translateX(5px) translateY(-5px);
+  border-radius: 20px !important;
+}
+
+.albuns .col-lg-3:hover svg {
+  opacity: 1;
+  top: -22%;
+    right: -75% !important;
+}
+
+.albuns img {
+  width: 100% !important;
+  transition: ease .3s;
+  border-radius: 20px !important;
+}
+
+.albuns svg {
+  position: relative;
+  top: -18%;
+  right: -78% !important;
+  color: #e88c7d;
+  border-radius: 100%;
+  box-shadow: 1px 1px 10px 1px #e88c7d;
+  font-size: 50px !important;
+  opacity: 0;
+  transition: ease .5s;
+
+}
+
+.albuns .moreTaylor {
+  color: var(--light-salmao);
+  font-size: 135%;
+}
+
+.albuns .infoAlbum {
+  color: var(--light-salmao);
+  margin-left: 5%;
+  margin-top: -24%;
+}
+
+.albuns p.infoAlbum2 {
+  color: var(--light-salmao-lowOpacity);
+  font-size: 80%;
+  margin-left: 5%;
+  margin-top: -8%;
+  margin-bottom: 20%;
+}
+
+
+.musicPlaylistAlbuns{
+  display: flex;
+  justify-content: center;
+}

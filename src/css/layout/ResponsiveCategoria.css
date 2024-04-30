@@ -1,0 +1,80 @@
+#app { height: 100% }
+html,
+body {
+  position: relative !important;
+  height: 100%;
+}
+
+.titleMusicas{
+  margin-top: -1%;
+  margin-bottom: 13%;
+  margin-left: 1.5%;
+  color: #e56b6f;
+  font-weight: bold;
+}
+
+.titleMusicasSub1{
+  margin-top: 5%;
+  color: #FFF;
+  margin-left: 1.5%;
+  margin-bottom: 3%;
+  /* width: 50%; */
+/* visibility: hidden ; */
+}
+
+.Swiper {
+	/* position: absolute;
+	visibility: hidden ; */
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: 40%;
+  border-radius: 12%;
+  /* position: absolute;
+  /* width: 50%; */
+/* visibility: hidden; */ 
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 12%;
+}
+
+.elementResponsive{
+  margin-top: 40%;
+  visibility: hidden;
+  position: absolute;
+}
+
+.row2{
+  margin-top: 20%;
+}
+
+
+/* //media// */
+@media screen and (max-width:720px ) {
+	.elementResponsive{
+		position: relative;
+		visibility: visible !important;
+	}
+};
+
+
+
+
+
+
+
+
+
+
+

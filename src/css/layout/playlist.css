@@ -1,0 +1,137 @@
+@import url('../cores.css');
+
+.playlistBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlistContent {
+    padding: 30px;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    background: var(--bgLinear-lightToDark-blue);
+}
+
+.playlistHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playlistHeaderImg {
+    width: 50%;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+
+.playlistHeaderNome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.playlistHeaderNome h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--light-salmao);
+}
+
+.playlistHeaderNome h5 {
+    color: var(--light-salmao-lowOpacity);
+}
+
+.playlistHeaderNome button {
+    padding: 10px 30px;
+    background-color: var(--light-salmao);
+    box-shadow: var(--light-shadow1);
+    border: var(--light-border);
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all .5s;
+    color: var(--blue);
+}
+
+.playlistHeaderNome button:hover {
+    box-shadow: var(--light-shadow2);
+    border: var(--light-border);
+    background-color: transparent;
+    color: var(--light-salmao);
+}
+
+.playlistHeaderNome button svg {
+    margin-right: 10px;
+}
+
+.headerMusicasPlaylist {
+    border-bottom: var(--light-border);
+    width: 98%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.headerMusicasPlayTitulo {
+    margin-top: 3%;
+    margin-bottom: 6px;
+    margin-left: 3%;
+    color: var(--light-salmao);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.headerMusicasPlayIcon {
+    margin-top: 3%;
+    margin-bottom: 6px;
+    margin-right: 5%;
+    color: var(--light-salmao);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.containerTable {
+    color: var(--light-salmao);
+}
+
+.containerTable h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+
+    small {
+        font-size: 0.5em;
+    }
+}
+
+.musicasPlaylistInfo {
+    margin: 10px 0;
+    margin-left: -30px;
+}
+
+.musicasPlaylistInfo img {
+    margin-left: 10px;
+    border-radius: 10px !important;
+    margin-right: -15px;
+    width: 4.5% !important;
+}
+
+.musicasPlaylistInfo div {
+    margin-top: 8px !important;
+}
+
+.playlistContent .carousel-control-next,
+.playlistContent .carousel-control-prev {
+    width: 3%;
+    text-align: center;
+    bottom: unset;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+
+.playlistContent .carousel-control-prev{
+   left: 92% !important;
+}

@@ -1,0 +1,18 @@
+@import url('../cores.css'); 
+
+
+.corpoInicialMusica {
+    background-color: #e88c7d;
+
+}
+.mgLeftSideBar{
+    margin-left: 800px !important;
+}
+
+.contentInicialMusica {
+    margin-right: unset !important;
+    /* box-shadow: 1px 1px 10px 1px black; */
+    background-color: var(--blue);
+    border-radius: 30px 0 0 30px !important;
+    width: 94% !important;
+}

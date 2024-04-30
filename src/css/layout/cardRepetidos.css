@@ -1,0 +1,102 @@
+@import url('../cores.css'); 
+
+/*corpo de card de mais repetidos*/
+.cardRepetidosBody {
+    margin-top: 10px;
+    background: var(--bgLinear-lightToDark-blue);
+    border-radius: 20px;
+    padding: 22px;
+    transition: all .5s !important;
+}
+
+.cardRepetidosBody:hover {
+    background: var(--bgLinear-lightToDark-blue2);
+}
+
+.cardRepetidosContent h4 {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: var(--light-blue);
+}
+
+.cardRepetidosContent .row{
+    margin-bottom: 11px;
+    border-radius: 10px;
+    transition: ease .5s;
+}
+
+.cardRepetidosContent .row:hover{
+    background-color: var(--blue);
+}
+
+.cardRepetidosContent .row:hover img{
+    border-radius: 10px;
+}
+
+.cardRepetidosContent img {
+    width: 70%;
+    border-radius: 3px;
+    transition: ease .3s;
+margin: 7px;
+}
+
+.cardRepetidosText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -20px !important;
+}
+
+.cardRepetidosText h5 {
+    font-size: 11px;
+    color: var(--light-salmao); 
+    margin-bottom: -0.5px;
+}
+
+.cardRepetidosText p {
+    font-size: 10px;
+    color: var(--light-salmao-lowOpacity); 
+}
+
+
+
+/*corpo do card de descobertas*/
+.cardDescobertasBody{
+    margin-top: 10px;
+    background: var(--bgLinear-lightToDark-blue2);
+    border-radius: 20px;
+    padding: 22px;
+    transition: linear .5s !important;
+}
+
+.cardDescobertasBody:hover {
+    background: var(--bgLinear-lightToDark-blue);
+}
+
+
+
+/*card de tempo escutado de musica no dia*/
+.cardTempoBody{
+    margin-top: 10px;
+    background: var(--bgLinear-pinkToPurple);
+    box-shadow: var(--lowOpacity-darkShadow);
+    border-radius: 20px;
+    padding:105px 30px;
+    transition: linear .5s !important;
+}
+
+.cardTempoBody:hover {
+    background: var(--bgLinear-pinkToPurple2);
+}
+
+.cardTempoText p {
+    font-size: 12.5px;
+    color: var(--light-salmao); 
+}
+
+.cardTempoText h5 {
+    font-size: 26px;
+    color: var(--light-salmao); 
+}
+

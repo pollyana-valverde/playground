@@ -1,0 +1,55 @@
+@import url('../cores.css'); 
+
+
+.playlists {
+    margin: 10px 30px !important;
+    display: flex;
+}
+
+.playlists h5{
+    font-size: 16px;
+    color: var(--light-salmao-lowOpacity);
+    margin-bottom: 23px;
+}
+
+.playlists .col-lg-3 {
+    height: 236px;
+    overflow: hidden;
+    transition: ease .5s;
+}
+
+.playlists .col-lg-3:hover {
+    overflow: visible !important;
+    border-radius: 20px;
+}
+
+.playlists .col-lg-3:hover img {
+    filter: grayscale(100%);
+    transform: translateX(5px) translateY(-5px);
+    border-radius: 20px !important;
+}
+
+.playlists .col-lg-3:hover svg {
+    opacity: 1;
+    top: -28%;
+    right: -73% !important;
+}
+
+.playlists img {
+    width: 100% !important;
+    transition: ease .3s;
+    border-radius: 20px !important;
+}
+
+.playlists svg {
+    position: relative;
+    top: -23%;
+    right: -78% !important;
+    color: #e88c7d;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px #e88c7d;
+    font-size: 50px !important;
+    opacity: 0;
+    transition: ease .5s;
+
+}

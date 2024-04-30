@@ -1,0 +1,82 @@
+@import url('../cores.css'); 
+
+
+.fundoWaveStart {
+    width: 100%;
+    z-index: 0;
+    /* position: absolute; */
+    margin-top: -13%;
+}
+
+.bordao{
+    margin-top: 8%;
+    overflow: hidden;
+}
+
+.bordao .bordaoTitle-line1,
+.bordao .bordaoTitle-line2 {
+    position: relative !important;
+    white-space: nowrap !important;
+}
+
+.bordao .bordaoTitle-line1>.bordaoTitle {
+    animation-duration: 25s;
+    color: var(--light-salmao);
+}
+
+.bordao .bordaoTitle-line1>.bordaoTitle .play {
+    color: var(--salmao);
+}
+
+.bordao .bordaoTitle-line1>.bordaoTitle .ground {
+    color: var(--pink);
+
+}
+
+.bordao .bordaoTitle-line2>.bordaoTitle {
+    animation-duration: 50s;
+    animation-name: looptitlein;
+    color: var(--light-salmao);
+}
+
+.bordao .bordaoTitle-line2>.bordaoTitle .play{
+    color: var(--pink);
+
+}
+
+.bordao .bordaoTitle-line2>.bordaoTitle .ground{
+    color: var(--salmao);
+}
+
+.bordao .bordaoTitle {
+    font-size: 80px;
+    animation-iteration-count: infinite !important;
+    animation-name: looptitle;
+    animation-timing-function: linear !important;
+    display: inline-block;
+    line-height: 1;
+    max-width: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@keyframes looptitle {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes looptitlein {
+    0% {
+
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

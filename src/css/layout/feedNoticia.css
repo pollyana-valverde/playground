@@ -1,0 +1,20 @@
+@import url('../cores.css');
+
+.feedNoticiaTitulo{
+    margin: 40px 40px 0;
+}
+
+.feedNoticiaTitulo h2{
+    color: var(--light-salmao);
+}
+
+.feedNoticiaTitulo p{
+    margin-top: -4px;
+    color: var(--light-salmao-lowOpacity);
+}
+
+.noticiaPrincipal{
+    width: 92%;
+    border-radius: 20px;
+    margin: 15px 40px 40px;
+}

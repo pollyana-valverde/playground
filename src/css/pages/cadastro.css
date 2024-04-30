@@ -1,0 +1,169 @@
+@import url(../cores.css);
+
+.conteinerCadastro{
+  margin: 7% auto !important;
+
+}
+
+.conteinerCadastro .container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.contentCadastro .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: var(--light-salmao);
+  box-shadow: var(--light-shadow3);
+  color: var(--blue) !important;
+  border-radius: 20px !important;
+  transition: linear .6s !important;
+}
+
+.nav-tabs {
+  width: fit-content;
+  padding: 5px;
+  border-radius: 47px;
+  border: var(--light-border) !important;
+  transition: ease .6s !important;
+}
+
+.nav-tabs .nav-link {
+  color: var(--light-salmao) !important;
+  transition: ease .6s !important;
+}
+
+.nav-tabs .nav-link:hover{
+  border-color: transparent !important;
+  border-radius: 20px;
+  color: var(--pink) !important; 
+}
+
+.contentCadastro .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover{
+  color: var(--blue) !important;
+
+}
+
+.contentCadastro input {
+  caret-color: #e56b6f;
+}
+
+.contentCadastro body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.contentCadastro {
+  position: relative;
+  padding: 8% 5% !important;
+  width: 80%;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: url("../../imagens/bgCadastro.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 20px 1px #f9e6dd;
+}
+
+.contentCadastro .brand-logo {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #dac4ba, -7px -7px 10px #f9e6dd;
+}
+
+.contentCadastro .brand-title {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #e56b6f;
+  letter-spacing: 1px;
+}
+
+.contentCadastro .inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.contentCadastro label,
+.contentCadastro input,
+.contentCadastro button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contentCadastro label {
+  margin-bottom: 4px;
+}
+
+.contentCadastro label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+.contentCadastro input::placeholder {
+  color: gray;
+}
+
+.contentCadastro input {
+  background-color: #ecf0f334;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #d1cbce, inset -6px -6px 6px white;
+}
+
+.contentCadastro button {
+  color: white;
+  margin-top: 20px;
+  background: #e56b6f;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+
+
+.contentCadastro button:hover {
+  box-shadow: none;
+}
+
+
+
+.contentCadastro h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cadastroImagem{
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+.cadastroImagem img{
+    width: 100%;
+    border-radius: 20px;
+}

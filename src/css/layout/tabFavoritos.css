@@ -1,0 +1,38 @@
+@import url('../cores.css'); 
+
+
+.tabFavoritosBody h1{
+    color: var(--light-salmao);
+    margin: 30px;
+}
+
+.tabQueridasTitulo{
+    color: var(--light-salmao);
+    margin:20px 30px 10px;
+}
+
+.tabFavoritosBtn {
+    padding: 10px 30px;
+    background-color: var(--light-salmao);
+    box-shadow: var(--light-shadow-lowOpacity);
+    border: var(--light-border);
+    border-radius: 15px; 
+    margin-left: 30px;
+    transition: all .5s;
+    color: var(--blue);
+}
+
+.tabFavoritosBtn:hover{
+    box-shadow: var(--light-shadow2);
+    border: var(--light-border-lowOpacity);
+    background-color: transparent;
+    color: var(--light-salmao);
+}
+
+.tabFavoritosBtn svg{
+    margin-right: 10px;
+}
+
+.tabFavoritosContent{
+    margin: 40px;
+}
